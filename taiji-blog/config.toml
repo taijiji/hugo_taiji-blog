@@ -1,0 +1,6 @@
+baseURL = "https://taijiji.github.io/taiji-blog/"
+languageCode = "en-us"
+title = "taiji-blog"
+theme = "hugo-kiera"
+canonifyurls = true
+publishdir = "public"
