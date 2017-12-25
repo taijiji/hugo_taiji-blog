@@ -28,31 +28,6 @@ canonifyurls = true
 publishdir = "public"
 ```
 
-# Post blog
-
-```
-$ hugo new post/20171217.md
-
-/Users/taiji/work/hugo_taiji-blog/content/post/20171217.md created
-```
-
-edit blog 
-
-```
-vi content/post/20171217.md
-```
-
-```
----
-title: "20171217"
-date: 2017-12-17T18:45:04-08:00
-draft: true
----
-
-# sample blog
-print(Hello Hugo!)
-```
-
 # preview
 ```
 cd taiji-blog
@@ -87,13 +62,41 @@ public
 ```
 
 ```
-$ cd ..
+$ cd ../../
 $ git remote add origin git@github.com:taijiji/taiji-blog.git
-$ git add .gitignore config.toml 
+$ git add .
 $ git commit -m'initial commit'
 $ git push origin master
 ```
 
+# Post blog
+
+```
+$ hugo new post/20171217.md
+
+/Users/taiji/work/hugo_taiji-blog/content/post/20171217.md created
+```
+
+edit blog 
+
+```
+vi content/post/20171217.md
+```
+
+```
+---
+title: "20171217"
+date: 2017-12-17T18:45:04-08:00
+draft: true
+---
+
+# sample blog
+print(Hello Hugo!)
+```
+
+```
+hugo
+```
 
 
 # Reference
